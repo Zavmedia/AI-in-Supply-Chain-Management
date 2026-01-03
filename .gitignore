@@ -1,0 +1,27 @@
+# IDE and OS files
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+env/
+
+# Node
+node_modules/
+build/
+dist/
+.npm
+npm-debug.log
+
+# Julia
+/Project.toml
+/Manifest.toml
+*.jl.cov
+*.jl.mem
+.julia/

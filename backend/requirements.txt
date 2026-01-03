@@ -1,0 +1,22 @@
+# Backend Dependencies
+
+# Web Framework
+fastapi
+uvicorn
+
+# AI/ML Libraries
+scikit-learn
+xgboost
+# prophet
+pandas
+numpy
+
+# Optimization
+# google-ortools
+
+# Database
+psycopg2-binary
+redis
+
+# Utilities
+python-dotenv

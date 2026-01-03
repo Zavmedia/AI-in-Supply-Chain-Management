@@ -1,0 +1,76 @@
+:root {
+  /* Colors */
+  --bg-dark: #050B14;
+  --bg-panel: rgba(10, 25, 41, 0.7);
+  --neon-cyan: #00F0FF;
+  --neon-blue: #4D9FFF;
+  --neon-red: #FF2A2A;
+  --neon-amber: #FFAA00;
+  --text-main: #E0E6ED;
+  --text-dim: #94A3B8;
+
+  /* Fonts */
+  --font-tech: 'Courier New', Courier, monospace; /* Fallback until fonts load */
+
+  /* Effects */
+  --glass-blur: blur(10px);
+  --glow-cyan: 0 0 10px rgba(0, 240, 255, 0.5);
+  --border-tech: 1px solid rgba(0, 240, 255, 0.3);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  font-family: var(--font-tech);
+  overflow: hidden; /* App feels like a dashboard, not a webpage */
+}
+
+.app-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.neon-grid-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    linear-gradient(rgba(0, 240, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 240, 255, 0.1) 1px, transparent 1px);
+  background-size: 50px 50px;
+  opacity: 0.1;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.content-overlay {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Scrollbar customization */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-dark); 
+}
+::-webkit-scrollbar-thumb {
+  background: var(--neon-blue); 
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--neon-cyan); 
+}
