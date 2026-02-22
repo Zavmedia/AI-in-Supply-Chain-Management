@@ -1,86 +1,90 @@
 <div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJndXIzZ3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6JmVwPXYxX2ludGVybmFsX2dpZl9ieV9iZCZjdD1n/3o7TKSjPBDp4279F-0/giphy.gif" width="100%" alt="Supply Chain AI Animation">
+  <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=2070&auto=format&fit=crop" width="100%" alt="AI Supply Chain Vision">
 
-  # 🔮 AI Supply Chain: Simplified
-  ### *Making Smart Logistics Easy for Everyone*
+  # 🔮 AI IN SUPPLY CHAIN MANAGEMENT
+  ### *Revolutionizing the Supply Chain with Intelligent Automation & Predictive Analytics*
 
-  [![GitHub Stars](https://img.shields.io/github/stars/Zavmedia/AI-in-Supply-Chain-Management?style=for-the-badge&color=00F0FF&logo=github)](https://github.com/Zavmedia/AI-in-Supply-Chain-Management/stargazers)
-  [![GitHub Forks](https://img.shields.io/github/forks/Zavmedia/AI-in-Supply-Chain-Management?style=for-the-badge&color=4D9FFF&logo=github)](https://github.com/Zavmedia/AI-in-Supply-Chain-Management/network/members)
-  
   <p align="center">
-    <b>Revolutionizing the Supply Chain with Intelligent Automation & Predictive Analytics.</b>
+    <img src="https://img.shields.io/github/stars/Zavmedia/AI-in-Supply-Chain-Management?style=for-the-badge&color=00F0FF&logo=github" />
+    <img src="https://img.shields.io/github/forks/Zavmedia/AI-in-Supply-Chain-Management?style=for-the-badge&color=4D9FFF&logo=github" />
+    <img src="https://img.shields.io/github/license/Zavmedia/AI-in-Supply-Chain-Management?style=for-the-badge&color=00F0FF" />
   </p>
+
+  ---
+
+  This project demonstrates how **Artificial Intelligence** can transform traditional supply chain processes into a smart, adaptive, and data-driven ecosystem. It includes a modular and scalable architecture that covers everything from demand forecasting to route optimization and supplier risk analysis — **tailored especially for small to mid-sized businesses.**
+
 </div>
 
+<br />
+
+## 🧠 FEATURES & CAPABILITIES
+
+◈ **🔮 AI-Powered Demand Forecasting**  
+Predict product demand with high accuracy using real-world sales and seasonal data.  
+> **What:** Prediction Engine | **For What:** Reduce stockouts | **How:** Prophet & XGBoost.
+
+◈ **📦 Smart Inventory Optimization**  
+Maintain optimal stock levels and automate reorder decisions.  
+> **What:** Reordering Protocol | **For What:** Cash flow | **How:** Real-time lead tracking.
+
+◈ **🚚 Route & Delivery Optimization**  
+Suggest the fastest and most fuel-efficient delivery paths.  
+> **What:** Pathfinding | **For What:** Fuel savings | **How:** Google OR-Tools.
+
+◈ **🏢 Supplier Risk Management**  
+Analyze supplier behavior and recommend alternatives before disruptions occur.  
+> **What:** Behavior Analytics | **For What:** Risk mitigation | **How:** Pattern prediction.
+
+◈ **🧾 NLP-Enabled Chatbot**  
+Interact with your supply chain data using natural language queries.  
+> **What:** Chat Interface | **For What:** Ease of use | **How:** FastAPI NLP layers.
+
+◈ **📊 Interactive Dashboard**  
+Visualize trends, forecasts, and live supply chain metrics in one place.  
+> **What:** Command Center | **For What:** Clarity | **How:** React Neon Horizon UI.
+
+<br />
+
+## 🛠️ TECH STACK
+- **Frontend**: React.js (for intuitive dashboard and chatbot interface)
+- **Backend**: Python (FastAPI), Node.js
+- **AI/ML**: scikit-learn, XGBoost, Prophet, Google OR-Tools
+- **Database**: PostgreSQL, Redis (for caching)
+- **Hosting**: AWS / Vercel / Heroku (based on your setup)
+
+<br />
+
+## 💼 IDEAL FOR
+◈ **Retail Chains**  
+◈ **Distributors**  
+◈ **Local Manufacturers**  
+◈ **Logistics Startups**  
+◈ **Supply Chain Innovators**
+
+<br />
+
+## 📁 WHAT YOU’LL FIND IN THIS REPO
+- **/models** – Pre-built ML models for forecasting and optimization
+- **/backend** – REST APIs for interacting with supply chain modules
+- **/frontend** – React-based dashboard and chatbot UI
+- **/datasets** – Sample structured data for testing
+- **/docs** – Architecture diagrams, workflow documentation, and deployment guide
+
+<br />
+
+## 🌐 LIVE PREVIEW & DEMO (OPTIONAL)
+*Coming soon / Add your deployment link here*
+
+<br />
+
+## ⭐ HOW TO CONTRIBUTE
+We welcome contributions! Whether it’s bug fixes, UI improvements, or adding new AI modules — your support helps this project grow. See the `CONTRIBUTING.md` for more info.
+
 ---
-
-## 🧐 What is this?
-Traditional supply chains can be messy and unpredictable. This project uses **Artificial Intelligence (AI)** to turn that mess into a smart, data-driven ecosystem. We help businesses—especially small to mid-sized ones—manage everything from predicting what customers will buy to finding the fastest delivery routes.
-
----
-
-## 💡 Why use it? (The Value)
-- **Stop Stockouts**: know exactly how much to order so you never run out.
-- **Save Money**: Spend less on fuel and warehouse storage.
-- **Fast Decisions**: Automate complex math so you can focus on growing your business.
-- **Better Logistics**: Get products to customers faster and more reliably.
-
----
-
-## 🧠 What can it do? (Features)
-
-### 🔮 1. Predict Future Sales (Demand Forecast)
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJndXIzZ3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6JmVwPXYxX2ludGVybmFsX2dpZl9ieV9iZCZjdD1n/l41lTfuxmQ-4N8NlC/giphy.gif" align="right" width="150">
-Predict exactly what products people will want using past sales and seasonal trends.
-- **Why?** So you don't waste money buying products that won't sell.
-- **How?** Our AI spots patterns in your sales history that humans might miss.
-
-### 📦 2. Smart Stock Controller (Inventory)
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJndXIzZ3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6JmVwPXYxX2ludGVybmFsX2dpZl9ieV9iZCZjdD1n/3o7TKMGVq-1A8K6Ewg/giphy.gif" align="right" width="150">
-Maintains the perfect amount of stock and automatically tells you when to reorder.
-- **Why?** To keep your cash flowing and your shelves full.
-- **How?** It calculates exactly when you'll run out and suggests an order.
-
-### � 3. Fuel-Efficient Paths (Route Optimization)
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJndXIzZ3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6JmVwPXYxX2ludGVybmFsX2dpZl9ieV9iZCZjdD1n/3o7TKPUN2n-7S34Nl6/giphy.gif" align="right" width="150">
-Finds the fastest and cheapest delivery paths for your trucks.
-- **Why?** To save on fuel costs and worker time.
-- **How?** It solves a giant puzzle of locations and traffic in seconds.
-
-### 🏢 4. Early Warning System (Supplier Risk)
-Watches your suppliers for you. If a shipment is likely to be late, it warns you early.
-- **Why?** To avoid business-stopping delays.
-- **How?** It analyzes supplier history to flag "high-risk" situations.
-
----
-
-## 🛠️ Tech Stack: The Gears Behind the AI
-We use modern, professional tools to keep everything running smoothly:
-- **Frontend**: React.js (for the beautiful dashboard).
-- **Backend**: Python (FastAPI) & Node.js.
-- **Brain (AI/ML)**: scikit-learn, XGBoost, Prophet, Google OR-Tools.
-- **Memory (Database)**: PostgreSQL & Redis.
-
----
-
-## 💼 Ideal For:
-◈ **Retail Chains** & **Distributors**  
-◈ **Local Manufacturers** & **Logistics Startups**  
-◈ **Supply Chain Innovators**  
-
----
-
-## � Get Started in 3 Steps
-1. **Setup the Brain**: Go to the `/backend` folder and follow the instructions.
-2. **Setup the Screen**: Go to the `/frontend` folder and run the dashboard.
-3. **Connect Data**: Use our sample datasets in `/datasets` to see it in action!
-
----
-
-## ⭐ How to Support
-We want to empower every supply chain. If you think this is useful, please **Fork** the repo and give it a **Star**! ⭐
 
 <div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJndXIzZ3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6JmVwPXYxX2ludGVybmFsX2dpZl9ieV9iZCZjdD1n/3o7TKVun7f6WMS8372/giphy.gif" width="100%">
-  <p><i>Simple. Smart. Future-ready.</i></p>
+  <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop" width="100%" alt="Future Logistics">
+  <p><b>EMPOWER YOUR SUPPLY CHAIN. MAKE IT INTELLIGENT. MAKE IT FUTURE-READY.</b></p>
+  <i>Fork it, star it, and transform your operations today.</i>
 </div>
